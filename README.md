@@ -1,5 +1,10 @@
 # Undergrad-Labs
 This repository holds code written for several labs of my undergraduate curriculum.
+Ofcourse, all this was done while I was learning so you may find some unstructured, ill-commented code.
+Of these labs I am particularly proud of the following two:
+   1) Digital Design Lab6 (MIPS CPU)
+   
+   2) DSP Lab 6 (C callable assembly)
 
 # Controls
 This folder contains a single C file demonstrating various controllers. 
@@ -47,6 +52,7 @@ This class is an introductory to microcontrollers and microprocessors architectu
   
 # Real Time DSP Applications
 Using a TI TMS320F28335 Delfino DSP (150 MHz), we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, and ping/pong buffers. 
+
    Lab1:
 
    Lab2:
