@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\Debug\Lab4_serial_int.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab4_serial_int.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab4_serial_int.map</FILE>
+  <FILE>Lab4_serial_int.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>26</LINE></MAIN>
+  <USART_RX_ISR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>181</LINE></USART_RX_ISR>
+  <USART_GPIO_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>93</LINE></USART_GPIO_INIT>
+  <USART_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>54</LINE></USART_INIT>
+  <LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>35</LINE></LOOP>
+  <DELAY_370MS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>189</LINE></DELAY_370MS>
+  <OUT_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>117</LINE></OUT_CHAR>
+  <POLL_DREIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>120</LINE></POLL_DREIF>
+  <IN_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>137</LINE></IN_CHAR>
+  <POLL_RXCIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>139</LINE></POLL_RXCIF>
+  <OUT_STRING><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>155</LINE></OUT_STRING>
+  <OUT_STRING_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>161</LINE></OUT_STRING_LOOP>
+  <OUT_STRING_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>169</LINE></OUT_STRING_END>
+  <DELAY_370MS_LOOP1><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>199</LINE></DELAY_370MS_LOOP1>
+  <DELAY_370MS_LOOP2><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>205</LINE></DELAY_370MS_LOOP2>
+  <DELAY_370MS_LOOP3><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>212</LINE></DELAY_370MS_LOOP3>
+  <DELAY_370MS_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_F\Lab4_serial_int\Lab4_serial_int\main.asm</FILE><LINE>220</LINE></DELAY_370MS_END>
+ </LABELS>
+</ASSEMBLER_INFO>

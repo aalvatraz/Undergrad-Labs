@@ -1,0 +1,23 @@
+|Lab5
+LE <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CS0_L => inst1.IN0
+CS0_L => inst.IN0
+CS0_L => inst4.IN1
+RE_L => inst1.IN1
+RE_L => inst.IN1
+RE_L => inst12.IN0
+OEI_L <= inst.DB_MAX_OUTPUT_PORT_TYPE
+OEO_L <= <GND>
+CLK <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+WE_L => inst4.IN0
+WE_L => inst13.IN0
+WE_L => LCD_R_WL.DATAIN
+E <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CS1_L => inst10.IN0
+A15 => inst11.IN0
+A12 => inst9.IN0
+A14 => inst8.IN0
+A13 => inst11.IN3
+LCD_R_WL <= WE_L.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\Debug\Lab4_serial_menu.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab4_serial_menu.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab4_serial_menu.map</FILE>
+  <FILE>Lab4_serial_menu.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>42</LINE></MAIN>
+  <MENU><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>21</LINE></MENU>
+  <BOOK><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>25</LINE></BOOK>
+  <PIZZA><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>29</LINE></PIZZA>
+  <FLAVOR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>33</LINE></FLAVOR>
+  <FOOD><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>36</LINE></FOOD>
+  <ACTOR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>39</LINE></ACTOR>
+  <USART_GPIO_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>118</LINE></USART_GPIO_INIT>
+  <USART_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>87</LINE></USART_INIT>
+  <MAIN_TERMINATE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>69</LINE></MAIN_TERMINATE>
+  <OUT_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>141</LINE></OUT_CHAR>
+  <POLL_DREIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>144</LINE></POLL_DREIF>
+  <IN_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>161</LINE></IN_CHAR>
+  <POLL_RXCIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>163</LINE></POLL_RXCIF>
+  <OUT_STRING><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>179</LINE></OUT_STRING>
+  <OUT_STRING_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>185</LINE></OUT_STRING_LOOP>
+  <OUT_STRING_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>193</LINE></OUT_STRING_END>
+  <DELAY_500US><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>206</LINE></DELAY_500US>
+  <DELAY_500US_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>213</LINE></DELAY_500US_LOOP>
+  <DELAY_500US_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>219</LINE></DELAY_500US_END>
+  <SORT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>233</LINE></SORT>
+  <BOOK_ANS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>258</LINE></BOOK_ANS>
+  <PIZZA_ANS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>264</LINE></PIZZA_ANS>
+  <FLAVOR_ANS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>270</LINE></FLAVOR_ANS>
+  <FOOD_ANS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>276</LINE></FOOD_ANS>
+  <ACTOR_ANS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>282</LINE></ACTOR_ANS>
+  <REDISPLAY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>288</LINE></REDISPLAY>
+  <SORT_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_E\Lab4_serial_menu\Lab4_serial_menu\main.asm</FILE><LINE>293</LINE></SORT_END>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,157 @@
+******************************************************************************
+             TMS320C2000 Linker PC v15.12.3                    
+******************************************************************************
+>> Linked Thu Sep 22 15:22:29 2016
+
+OUTPUT FILE NAME:   <Lab2.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00009000
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  BEGIN                 00000000   00000002  00000000  00000002  RWIX
+  RAMM0                 00000050   000003b0  00000000  000003b0  RWIX
+  RAML0                 00008000   00001000  00000010  00000ff0  RWIX
+  RAML1                 00009000   00001000  00000251  00000daf  RWIX
+  RAML2                 0000a000   00001000  00000000  00001000  RWIX
+  RAML3                 0000b000   00001000  00000000  00001000  RWIX
+  ZONE7A                00200000   0000fc00  00000000  0000fc00  RWIX
+  CSM_RSVD              0033ff80   00000076  00000000  00000076  RWIX
+  CSM_PWL               0033fff8   00000008  00000000  00000008  RWIX
+  ADC_CAL               00380080   00000009  00000000  00000009  RWIX
+  IQTABLES              003fe000   00000b50  00000000  00000b50  RWIX
+  IQTABLES2             003feb50   0000008c  00000000  0000008c  RWIX
+  FPUTABLES             003febdc   000006a0  00000000  000006a0  RWIX
+  BOOTROM               003ff27c   00000d44  00000000  00000d44  RWIX
+  RESET                 003fffc0   00000002  00000000  00000002  RWIX
+
+PAGE 1:
+  BOOT_RSVD             00000002   0000004e  00000000  0000004e  RWIX
+  RAMM1                 00000400   00000400  00000000  00000400  RWIX
+  RAML4                 0000c000   00001000  00000004  00000ffc  RWIX
+  RAML5                 0000d000   00001000  00000000  00001000  RWIX
+  RAML6                 0000e000   00001000  00000000  00001000  RWIX
+  RAML7                 0000f000   00001000  00000030  00000fd0  RWIX
+  ZONE7B                0020fc00   00000400  00000000  00000400  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.cinit     0    00008000    00000010     
+                  00008000    00000010     Lab2_Quiz.obj (.cinit)
+
+.text      0    00009000    00000251     
+                  00009000    000000df     Lab2_Quiz.obj (.text)
+                  000090df    000000d9     LCD.obj (.text)
+                  000091b8    00000099     I2C.obj (.text)
+
+.pinit     0    00008000    00000000     UNINITIALIZED
+
+.ebss      1    0000c000    00000004     UNINITIALIZED
+                  0000c000    00000004     Quiz2.obj (.ebss)
+
+DMARAML7   1    0000f000    00000030     
+                  0000f000    00000030     Quiz2.obj (DMARAML7)
+
+.reset     0    003fffc0    00000000     DSECT
+
+csm_rsvd   0    0033ff80    00000000     DSECT
+
+csmpasswds 
+*          0    0033fff8    00000000     DSECT
+
+MODULE SUMMARY
+
+       Module          code   ro data   rw data
+       ------          ----   -------   -------
+    .\
+       Lab2_Quiz.obj   223    0         16     
+       LCD.obj         217    0         0      
+       I2C.obj         153    0         0      
+       Quiz2.obj       0      0         52     
+    +--+---------------+------+---------+---------+
+       Total:          593    0         68     
+                                               
+    +--+---------------+------+---------+---------+
+       Grand Total:    593    0         68     
+
+
+GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
+
+address     data page           name
+--------    ----------------    ----
+0000c000     300 (0000c000)     Min_Value
+0000c002     300 (0000c000)     Max_Value
+
+0000f000     3c0 (0000f000)     Quiz_Values
+0000f02e     3c0 (0000f000)     Quiz_Values_Length
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+page  address   name                 
+----  -------   ----                 
+0     00009000  .text                
+0     000091b8  I2C_INIT             
+0     000091c5  I2C_SEND             
+0     00009177  LCD_CLEAR            
+0     000090df  LCD_INIT             
+0     0000917e  LCD_LINE2            
+0     00009170  LCD_STRING           
+1     0000c002  Max_Value            
+1     0000c000  Min_Value            
+1     0000f000  Quiz_Values          
+1     0000f02e  Quiz_Values_Length   
+abs   ffffffff  ___TI_pprof_out_hndl 
+abs   ffffffff  ___TI_prof_data_size 
+abs   ffffffff  ___TI_prof_data_start
+abs   ffffffff  ___binit__           
+abs   ffffffff  ___c_args__          
+0     00008000  ___cinit__           
+0     00009251  ___etext__           
+abs   ffffffff  ___pinit__           
+0     00009000  ___text__            
+0     00009000  _c_int00             
+abs   ffffffff  binit                
+0     00008000  cinit                
+0     00009251  etext                
+abs   ffffffff  pinit                
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+page  address   name                 
+----  -------   ----                 
+0     00008000  ___cinit__           
+0     00008000  cinit                
+0     00009000  .text                
+0     00009000  ___text__            
+0     00009000  _c_int00             
+0     000090df  LCD_INIT             
+0     00009170  LCD_STRING           
+0     00009177  LCD_CLEAR            
+0     0000917e  LCD_LINE2            
+0     000091b8  I2C_INIT             
+0     000091c5  I2C_SEND             
+0     00009251  ___etext__           
+0     00009251  etext                
+1     0000c000  Min_Value            
+1     0000c002  Max_Value            
+1     0000f000  Quiz_Values          
+1     0000f02e  Quiz_Values_Length   
+abs   ffffffff  ___TI_pprof_out_hndl 
+abs   ffffffff  ___TI_prof_data_size 
+abs   ffffffff  ___TI_prof_data_start
+abs   ffffffff  ___binit__           
+abs   ffffffff  ___c_args__          
+abs   ffffffff  ___pinit__           
+abs   ffffffff  binit                
+abs   ffffffff  pinit                
+
+[25 symbols]

@@ -1,0 +1,13 @@
+|lab3a
+LE <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CS0_L => inst1.IN0
+CS0_L => inst.IN0
+CS0_L => inst4.IN1
+RE_L => inst1.IN1
+RE_L => inst.IN1
+OEI_L <= inst.DB_MAX_OUTPUT_PORT_TYPE
+OEO_L <= <GND>
+CLK <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+WE_L => inst4.IN0
+
+

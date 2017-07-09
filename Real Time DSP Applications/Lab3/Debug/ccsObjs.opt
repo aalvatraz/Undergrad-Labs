@@ -1,0 +1,1 @@
+"./F2833x_Register_Defines.obj" "./Lab3_Part2.obj" "../28335_RAM_lnk.cmd" -llibc.a 

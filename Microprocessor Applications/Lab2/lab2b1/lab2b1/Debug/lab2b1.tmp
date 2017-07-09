@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\Debug\lab2b1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab2b1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab2b1.map</FILE>
+  <FILE>lab2b1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</FILE><LINE>16</LINE></MAIN>
+  <TOGGLE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</FILE><LINE>26</LINE></TOGGLE>
+  <DELAY200><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</FILE><LINE>42</LINE></DELAY200>
+  <DELAY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</FILE><LINE>47</LINE></DELAY>
+  <END_DELAY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2b1\lab2b1\main.asm</FILE><LINE>52</LINE></END_DELAY>
+ </LABELS>
+</ASSEMBLER_INFO>

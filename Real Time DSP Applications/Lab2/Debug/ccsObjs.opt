@@ -1,0 +1,1 @@
+"./F2833x_Register_Defines.obj" "./I2C.obj" "./LCD.obj" "./Lab2_Quiz.obj" "./Quiz2.obj" "../28335_RAM_lnk.cmd" -llibc.a 

@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\Debug\Lab1_ASCII_Filter.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab1_ASCII_Filter.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab1_ASCII_Filter.map</FILE>
+  <FILE>Lab1_ASCII_Filter.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</FILE><LINE>33</LINE></MAIN>
+  <TABLE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</FILE><LINE>22</LINE></TABLE>
+  <NEWTABLE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</FILE><LINE>28</LINE></NEWTABLE>
+  <LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</FILE><LINE>40</LINE></LOOP>
+  <END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1_ASCII_Filter\Lab1_ASCII_Filter\main.asm</FILE><LINE>51</LINE></END>
+ </LABELS>
+</ASSEMBLER_INFO>

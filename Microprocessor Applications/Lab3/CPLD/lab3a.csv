@@ -1,0 +1,69 @@
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# File: C:\Users\Adrian\Desktop\MicroP\Labs\Lab3\CPLD\lab3a.csv
+# Generated on: Mon Feb 15 05:21:18 2016
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Reserved
+CS0_L,Unknown,PIN_19,,,
+GCLK1,Unknown,PIN_26,,,
+IN_OE_L,Unknown,PIN_27,,,
+LE,Unknown,PIN_28,,,
+OUT_OE_L,Unknown,PIN_24,,,
+RE_L,Unknown,PIN_21,,,
+TCK,Input,,,,
+TDI,Input,,,,
+TDO,Output,,,,
+TMS,Input,,,,
+WE_L,Unknown,PIN_20,,,
+,Unknown,PIN_1,,,
+,Unknown,PIN_2,,,
+,Unknown,PIN_3,,,
+,Unknown,PIN_4,,,
+,Unknown,PIN_5,,,
+,Unknown,PIN_6,,,
+,Unknown,PIN_7,,,
+,Unknown,PIN_8,,,
+,Unknown,PIN_9,,,
+,Unknown,PIN_10,,,
+,Unknown,PIN_11,,,
+,Unknown,PIN_12,,,
+,Unknown,PIN_13,,,
+,Unknown,PIN_14,,,
+,Unknown,PIN_15,,,
+,Unknown,PIN_16,,,
+,Unknown,PIN_17,,,
+,Unknown,PIN_18,,,
+,Unknown,PIN_22,,,
+,Unknown,PIN_23,,,
+,Unknown,PIN_25,,,
+,Unknown,PIN_29,,,
+,Unknown,PIN_30,,,
+,Unknown,PIN_31,,,
+,Unknown,PIN_32,,,
+,Unknown,PIN_33,,,
+,Unknown,PIN_34,,,
+,Unknown,PIN_35,,,
+,Unknown,PIN_36,,,
+,Unknown,PIN_37,,,
+,Unknown,PIN_38,,,
+,Unknown,PIN_39,,,
+,Unknown,PIN_40,,,
+,Unknown,PIN_41,,,
+,Unknown,PIN_42,,,
+,Unknown,PIN_43,,,
+,Unknown,PIN_44,,,

@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\Debug\lab2quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab2quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab2quiz.map</FILE>
+  <FILE>lab2quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>11</LINE></MAIN>
+  <KEYPAD_SETUP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>69</LINE></KEYPAD_SETUP>
+  <START><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>20</LINE></START>
+  <GETKEY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>81</LINE></GETKEY>
+  <STATE1PRE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>29</LINE></STATE1PRE>
+  <DELAY200><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>156</LINE></DELAY200>
+  <STATE1><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>31</LINE></STATE1>
+  <STATE2><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>42</LINE></STATE2>
+  <NIGHTRIDER><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>45</LINE></NIGHTRIDER>
+  <RESET><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>56</LINE></RESET>
+  <TABLE_1><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>70</LINE></TABLE_1>
+  <TABLE_2><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>72</LINE></TABLE_2>
+  <GETKEY_SETUP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>90</LINE></GETKEY_SETUP>
+  <READPAD><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>103</LINE></READPAD>
+  <NO_KEY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>128</LINE></NO_KEY>
+  <SETR16><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>123</LINE></SETR16>
+  <RETURN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>130</LINE></RETURN>
+  <DELAY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>163</LINE></DELAY>
+  <CHECK><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>168</LINE></CHECK>
+  <END_DELAY><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>178</LINE></END_DELAY>
+  <END_DELAY2><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab2\lab2quiz\lab2quiz\main.asm</FILE><LINE>180</LINE></END_DELAY2>
+ </LABELS>
+</ASSEMBLER_INFO>

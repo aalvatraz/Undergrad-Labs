@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\Debug\Lab1Quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab1Quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab1Quiz.map</FILE>
+  <FILE>Lab1Quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>35</LINE></MAIN>
+  <TABLE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>24</LINE></TABLE>
+  <NEWTABLE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>30</LINE></NEWTABLE>
+  <LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>47</LINE></LOOP>
+  <END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>74</LINE></END>
+  <STORE><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>65</LINE></STORE>
+  <LTU><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>71</LINE></LTU>
+  <CHKU><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>62</LINE></CHKU>
+  <UTL><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab1\Lab1Quiz\Lab1Quiz\main.asm</FILE><LINE>68</LINE></UTL>
+ </LABELS>
+</ASSEMBLER_INFO>

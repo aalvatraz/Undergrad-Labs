@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\Debug\Lab4_serial_baud_test.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab4_serial_baud_test.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab4_serial_baud_test.map</FILE>
+  <FILE>Lab4_serial_baud_test.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>16</LINE></MAIN>
+  <USART_GPIO_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>80</LINE></USART_GPIO_INIT>
+  <USART_INIT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>50</LINE></USART_INIT>
+  <MAIN_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>29</LINE></MAIN_LOOP>
+  <OUT_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>103</LINE></OUT_CHAR>
+  <DELAY_500US><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>166</LINE></DELAY_500US>
+  <POLL_DREIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>106</LINE></POLL_DREIF>
+  <IN_CHAR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>123</LINE></IN_CHAR>
+  <POLL_RXCIF><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>125</LINE></POLL_RXCIF>
+  <OUT_STRING><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>142</LINE></OUT_STRING>
+  <OUT_STRING_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>148</LINE></OUT_STRING_LOOP>
+  <DELAY_500US_LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>173</LINE></DELAY_500US_LOOP>
+  <DELAY_500US_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_D\Lab4_serial_baud_test\Lab4_serial_baud_test\main.asm</FILE><LINE>179</LINE></DELAY_500US_END>
+ </LABELS>
+</ASSEMBLER_INFO>

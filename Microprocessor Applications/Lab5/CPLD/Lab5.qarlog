@@ -1,0 +1,23 @@
+Quartus II Archive log --	C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.qarlog
+
+Archive:	C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.qar
+Date:		Mon Mar 21 16:02:32 2016
+Quartus II		9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.bdf
+C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.dpf
+C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.qpf
+C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.qsf
+C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.vwf
+c:/altera/91sp2/quartus/bin/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Apr 11 10:12:13 2016
+Source archive file:	C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5.qar
+Archive was extracted into	C:/Users/Adrian/Desktop/MicroP/Labs/Lab5/CPLD/Lab5_restored/
+		 - successfully.

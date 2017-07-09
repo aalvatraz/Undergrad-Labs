@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128a1udef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.0.36\avrasm\inc\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\Debug\lab4_ext_intr.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab4_ext_intr.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab4_ext_intr.map</FILE>
+  <FILE>lab4_ext_intr.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>20</LINE></MAIN>
+  <EXT_INT_ISR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>91</LINE></EXT_INT_ISR>
+  <INIT_EXT_INT_ISR><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>51</LINE></INIT_EXT_INT_ISR>
+  <LOOP><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>34</LINE></LOOP>
+  <DELAY_100MS><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>119</LINE></DELAY_100MS>
+  <CLR_COUNT><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>106</LINE></CLR_COUNT>
+  <EXT_INT_ISR_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>109</LINE></EXT_INT_ISR_END>
+  <DELAY_100MS_LOOP1><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>128</LINE></DELAY_100MS_LOOP1>
+  <DELAY_100MS_LOOP2><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>134</LINE></DELAY_100MS_LOOP2>
+  <DELAY_100MS_END><FILE>C:\Users\Adrian\Desktop\MicroP\Labs\Lab4\PART_A\Lab4_ext_intr\lab4_ext_intr\main.asm</FILE><LINE>141</LINE></DELAY_100MS_END>
+ </LABELS>
+</ASSEMBLER_INFO>
