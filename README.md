@@ -64,9 +64,9 @@ This class is an introductory to microcontrollers and microprocessors architectu
 # Real Time DSP Applications (Fall 2016)
 Using a TI TMS320F28335 Delfino DSP (150 MHz) we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, and ping/pong buffers. 
 
-   Lab2: Assembly & I2C & GPIO : Bit Banged I2C in Assembly to interface with external 2 line LCD. Basic Read/Write of GPIO ports (LEDs/Switches)
+   Lab2: Assembly & I2C & GPIO - Bit Banged I2C in Assembly to interface with external 2 line LCD. Basic Read/Write of GPIO ports (LEDs/Switches)
 
-   Lab3: FPU : Used FPU instruction set to sort floating point numbers. Implemented Bubble Sort in Assembly.
+   Lab3: FPU - Used FPU instruction set to sort floating point numbers. Implemented Bubble Sort in Assembly.
 
    Lab4: ADC, DAC, Interrupts, Timers & C - Used external SPI ADC & DAC via McBSP peripheral to get audio IO using timer interrupts
 
