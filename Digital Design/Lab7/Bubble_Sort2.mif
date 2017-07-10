@@ -1,0 +1,92 @@
+Depth = 256;						--Modified Bubble sort for testbench courtesy
+Width = 32;
+Address_radix = hex;
+Data_radix = bin;
+% Program RAM Data %					--  This program will read a series of different positive integer from memory and display them in the ascending order
+Content							-- Simulate this on Your MIPS processor through canvas as an alternative from the of the original  
+							-- All the entries will get displayed continuously in the ascending order 
+							-- The delay below will make sure that the values stay on the OUTPORT long enough to be make the order clear
+							-- Zoom out and monitor the output port to see a continuous sorted sequence of the numbers in the ARRAY
+							--  The entries will be read from a table that starts with the address 0xC4 
+							-- Unsorted array = (0x0F, 0x03, 0x07, 0x0A,  0x20, 0x48, 0x36, 0x06, 0x28, 0x02"); 
+							-- output sequence = (0x02, 0x03, 0x06, 0x07, 0x0A, 0x0F, 0x20, 0x28, 0x36, 0x48);
+							
+--Feel free to modify the array at the bottom of the page in the data section to match your troubleshooting preference.
+--However if you do so, make sure to also update the size at instruction 00 and make sure not to change the starting address. 
+
+  Begin		
+
+												-- IN this part we will apply the Bubble sort to sort 
+												-- all the entries in the same memory space
+		
+						-- Sort:
+00 : 00100100000100000000000000001010	;		-- addiu $s0, $zero, size     		// load the size (10 OR 0xA) of the table to S0/R16			
+04 : 00100100000101000000000000000001	;		-- addui $S4, $Zero, 1			// load immediate 1 to S4/R20 , the counter for the innerloop
+08 : 00100100000101010000000000000001	;		-- addui $S5, $Zero, 1			// load immediate 1 to S5/R21 , the counter for the outerloop
+0C : 00100100000100100000000011000100	;		-- addiu $s2, $zero, address		// load the table address (0xC4) to S2/R18
+
+
+						-- InnerLoop:
+10 : 00000010000101000100100000100011	;		-- Subu $t1, $s0, s4			// t1 = size - s4
+14 : 00010001001000000000000000001001	;		-- beq $t1, $zero, OUTERLOOP		// if t1 ==0,break and check the outerloop
+18 : 10001110010010100000000000000000	;		-- lw $t2, 0($s2)			// load from mem[s2] to t2
+1C : 10001110010010110000000000000100	;		-- lw $t3, 4($s2)			// load form mem[s2+4] to t3
+20 : 00000001011010100110000000101011	;		-- sltu $t4, $t3, $t2			// if t3 < t2, t4 = 1; else t4 =0
+24 : 00010001100000000000000000000010	;		-- beq $t4, $zero, skip			// if t4 == 0, branch to skip
+28 : 10101110010010110000000000000000	;		-- sw $t3, 0($s2)			// swap the two entries
+2C : 10101110010010100000000000000100	;		-- sw $t2, 4($s2)
+
+						-- skip :
+30 : 00100110100101000000000000000001	;		-- addiu $s4, $s4, 1			// increment the innerCounter
+34 : 00100110010100100000000000000100	;		-- addiu $s2, $s2, 4			// increment the address
+38 : 00001000000000000000000000000100	;		-- j InnerLoop				// repeat
+
+						-- OUTERLOOP:
+3C : 00000010000101010100100000100011	;		-- Subu $t1, $s0, s5			// t1 = size - s5
+40 : 00010001001000000000000000000011	;		-- beq $t1, $zero, display		// if t1 ==0,break and branch to "display"
+44 : 00100110101101000000000000000001	;		-- addui $S4, $S5, 1			// S4 = S5+1 to decrease to number of compares
+48 : 00100110101101010000000000000001	;		-- addiu $s5, $s5, 1			// increment S5
+4C : 00001000000000000000000000000011	;		-- j InnerLoop				// jump to the innerloop
+
+
+												-- In this part, we will load value from the memory
+												-- and store them in the ouport0
+
+						--display:		
+50 : 00100100000100100000000011000100	;		-- addiu $s2, $zero, address		// load the table address to S2/R18
+54 : 00000000000000001001100000100001	;		-- add	$s3, $zero, $zero		// reset S3 to 0, we could use a different register
+
+						--next_val:
+58 : 10001110010010010000000000000000	;		-- lw $t1, 0($s2)			// load from mem[s2] to t1
+5C : 10101100000010011111111111111100	;		-- sw $t1, FFFC($zero)			// store t1 to the outport1
+
+												-- the following nested loop will provide a 
+												-- delay of 1s between every 2 display
+
+60 : 00100100000011100000000000001111	;		-- addiu $t6, $zero, 0x0F		// load t6 with the value 0x7F
+	
+						--delay:
+64 : 01000001110011100000000000000001	;		-- subiu $t6, $t6, 1			// decrement t6
+68 : 00010101110000001111111111111110	;		-- bne $t6, $zero, delay		// if t6 != branch to delay3		
+6C : 00100110010100100000000000000100	;		-- addiu $s2, $s2, 4			// increment the address 
+70 : 00100110011100110000000000000001	;		-- addiu $s3, $s3, 1			// increment the counter
+74 : 00000010000100110101001001100011	;		-- Subu $t2, $s0, $s3			// t2 = size - counter
+78 : 00010001010000001111111111110101	;		-- beq $t2, $zero, display		// if t2 == 0, jump to display
+7C : 00001000000000000000000000010110	;		-- j next_val				// else jump the next value in the table
+
+
+--DATA SECTION
+C4 : 00000000000000000000000000001111	;		--0x0F
+C8 : 00000000000000000000000000000011	;		--0x03 
+CC : 00000000000000000000000000000111	;		--0x07
+D0 : 00000000000000000000000000001010	;		--0x0A
+D4 : 00000000000000000000000000100000	;		--0x20
+D8 : 00000000000000000000000001001000	;		--0x48
+DC : 00000000000000000000000000110110	;		--0x36
+E0 : 00000000000000000000000000000110	;		--0x06
+E4 : 00000000000000000000000000101000	;		--0x28
+E8 : 00000000000000000000000000000010	;		--0x02
+
+
+
+End;
