@@ -5,12 +5,16 @@ Please bear with me on some of the code, it as a learning process.
 Of these labs I am particularly proud of the following two:
    1) Digital Design Lab6 (MIPS CPU)
          -Implemented CPU capable of running subset of MIPS instruction set
+         
          -Used Controller/Datapath VHDL architecture
+         
          -Wrote Sorting and GCD program in Assembly capable of running on the CPU
    
    2) DSP Lab 6 (C callable assembly)
          -Wrote a C callable assembly function to multiply and accumulate FIR Filter taps by incoming audio samples (Filters.asm)
+         
          -Took full advantage of circular addressing mode to optimize the calculation
+         
          -Was able to calculate a 181 tap FIR BPF at ~300kHz on incoming audio data(41kHz sample rate)
              -the average rate among other students in the class was ~30kHz
 
