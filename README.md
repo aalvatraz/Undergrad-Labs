@@ -1,17 +1,25 @@
 # Undergrad-Labs
-This repository holds code written for several labs of my undergraduate curriculum.
-Ofcourse, all this was done while I was learning so you may find some unstructured, ill-commented code.
+This repository holds code written for several labs of my undergraduate curriculum(EE)  .
+Please bear with me on some of the code, it as a learning process.
+
 Of these labs I am particularly proud of the following two:
    1) Digital Design Lab6 (MIPS CPU)
+         -Implemented CPU capable of running subset of MIPS instruction set
+         -Used Controller/Datapath VHDL architecture
+         -Wrote Sorting and GCD program in Assembly capable of running on the CPU
    
    2) DSP Lab 6 (C callable assembly)
+         -Wrote a C callable assembly function to multiply and accumulate FIR Filter taps by incoming audio samples (Filters.asm)
+         -Took full advantage of circular addressing mode to optimize the calculation
+         -Was able to calculate a 181 tap FIR BPF at ~300kHz on incoming audio data(41kHz sample rate)
+             -the average rate among other students in the class was ~30kHz
 
-# Controls
+# Controls (Spring 2016)
 This folder contains a single C file demonstrating various controllers. 
 controller.c implements a PID controller which was used to balance a ball on a beam. 
 The p-i-d coefficients were calculated using Zeigler-Nichols method.
 
-# Digital Design
+# Digital Design (Spring 2017)
 In this class, we used VHDL to program the DE0 Altera(Now Intel FPGA) board.
 
    Lab1: Use GUI aid to create .bdf for a simple adder
@@ -34,40 +42,41 @@ In this class, we used VHDL to program the DE0 Altera(Now Intel FPGA) board.
   
    Lab7: Built a MIPS architecture CPU capable of executing a subset of the MIPS instruction set
 
-# Microprocessor Applications
+# Microprocessor Applications (Spring 2016)
 This class is an introductory to microcontrollers and microprocessors architecture. These labs were run on a Atmel XMEGA128A1U.
 
-   Lab1:Introduction to Assembly
-      -Wrote simple program to filter out ASCII values in data memory
+   Lab1:Introduction to Assembly - Wrote simple program to filter out ASCII values in data memory
+      
+   Lab2: GPIO - Incorporated raster scan keypad as well as LEDs
   
-   Lab2:
+   Lab3: External Interface - Connected Memory Mapped IO to microcontroller
   
-   Lab3:
+   Lab4: Serial Interface & Interrupts - Created serial interface to connect to laptop via UART to USB (ftdi) using interrupts to trigger Rx and Tx events
   
-   Lab4:
+   Lab5: C introduction - Recreated raster scan keypad code in C as well as incorporate 2 Line LCD screen to display captured ADC values using interrupts
   
-   Lab5:
+   Lab6: Timers  - Used timer module to play notes on a piezo buzzer (LoZ Theme Song!)
+   
+   Lab7: DAC - Used timers along with DAC to generate various waveforms using a LUT
+   
+   Lab8: DMA - Used keypad to determine DAC output frequency for various waveforms. The DMA handled the memory transfer between the LUT and the DAC register.
   
-   Lab6:
-  
-# Real Time DSP Applications
-Using a TI TMS320F28335 Delfino DSP (150 MHz), we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, and ping/pong buffers. 
+# Real Time DSP Applications (Fall 2016)
+Using a TI TMS320F28335 Delfino DSP (150 MHz) we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, and ping/pong buffers. 
 
-   Lab1:
+   Lab2: Assembly & I2C & GPIO : Bit Banged I2C in Assembly to interface with external 2 line LCD. Basic Read/Write of GPIO ports (LEDs/Switches)
 
-   Lab2:
+   Lab3: FPU : Used FPU instruction set to sort floating point numbers. Implemented Bubble Sort in Assembly.
 
-   Lab3:
+   Lab4: ADC, DAC, Interrupts, Timers & C - Used external SPI ADC & DAC via McBSP peripheral to get audio IO using timer interrupts
 
-   Lab4:
+   Lab5: Audio Mixing, Interpolation, Decimation, Echo & Reverb Effect - Implemented using everything from Lab 3
 
-   Lab5:
+   Lab6: FIR Filter - Apply LPF, HPF, and BPF on incoming audio data using C arithmetic vs Assembly optimization
 
-   Lab6:
+   Lab7: IIR Filter - Apply LPF, HPF, BPF on incoming audio data using TI math libraries
 
-   Lab7:
+   Lab8: DFT/FFT - Use ping/pong buffers to recieve audio data, and process DFT/FFT on block of data
 
-   Lab8:
-
-   Lab9:
+   Lab9: Creative Project - Created audio effects "box" using raster scan keypad as input to select echo, reverb, wah-wah, pitch shift, ring modulation, and flanger effects.
 
