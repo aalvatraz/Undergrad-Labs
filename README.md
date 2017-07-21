@@ -1,6 +1,6 @@
 # Undergrad-Labs
 This repository holds code written for several labs of my undergraduate curriculum(EE)  .
-Please bear with me on some of the code, it as a learning process.
+Please bear with me on some of the code, it was a learning process.
 
 Of these labs I am particularly proud of the following two:
    1) Digital Design Lab6 (MIPS CPU)
