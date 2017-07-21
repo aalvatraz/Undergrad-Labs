@@ -66,7 +66,7 @@ This class is an introductory to microcontrollers and microprocessors architectu
    Lab8: DMA - Used keypad to determine DAC output frequency for various waveforms. The DMA handled the memory transfer between the LUT and the DAC register.
   
 # Real Time DSP Applications (Fall 2016)
-Using a TI TMS320F28335 Delfino DSP (150 MHz) we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, and ping/pong buffers. 
+Using a TI TMS320F28335 Delfino DSP (150 MHz) we learned about memory linking, FPU, hardware optimizated arithmetic, FIR/IIR filters, DFT/FFT, circular and ping/pong buffers. 
 
    Lab2: Assembly & I2C & GPIO - Bit Banged I2C in Assembly to interface with external 2 line LCD. Basic Read/Write of GPIO ports (LEDs/Switches)
 
@@ -80,7 +80,7 @@ Using a TI TMS320F28335 Delfino DSP (150 MHz) we learned about memory linking, F
 
    Lab7: IIR Filter - Apply LPF, HPF, BPF on incoming audio data using TI math libraries
 
-   Lab8: DFT/FFT - Use ping/pong buffers to recieve audio data, and process DFT/FFT on block of data
+   Lab8: DFT/FFT - Used DMA triggered ping/pong buffers to recieve audio data, and process DFT/FFT on block of data
 
    Lab9: Creative Project - Created audio effects "box" using raster scan keypad as input to select echo, reverb, wah-wah, pitch shift, ring modulation, and flanger effects.
 
